@@ -1,0 +1,10 @@
+This
+file
+will
+have
+exactly
+10
+lines
+to
+test
+condition
