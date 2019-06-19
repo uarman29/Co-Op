@@ -6,7 +6,7 @@ done
 
 for pyfile in `ls *.py`
 do
-	length=`wc -l $pyfile`
+	length=`wc -l < $pyfile`
 	if [ $length -ge 10 ]
 	then
 		mv $pyfile long_$pyfile
